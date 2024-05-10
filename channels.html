@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>Channels | ubtv</title>
+    <meta name="description" content="Play all your favourite games for free on ubgames - the website with over 200 unblocked games to play ad free!" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="https://ubgamesuk.github.io/site/images/uborange.png"
+                    href="index.html">
+                </span>
+                <div class="text logo-text">
+                    <img src="images/logo.png"
+                    height="42px">
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="channels.html">
+                            <i class='bx bxs-tv icon' ></i>
+                            <span class="text nav-text">TV Channels</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="categories">
+                            <i class='bx bxs-category icon'></i>
+                            <span class="text nav-text">Categories</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                </li>
+                <li class="">
+                    <a href="#">
+                        <i class='bx bxs-cog icon' ></i>
+                        <span class="text nav-text">Settings</span>
+                    </a>
+                </li>
+
+
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+<!----------------MAIN SECTION---------------------->
+    <section class="channels">
+        <div class="row">
+        <br>
+        <h1>TV Channels</h1>
+        <br>
+            <div class="column">
+                <a href="bbc-one.html">
+            <img src="images/bbcone.jpg"></a>
+                <a href="bbc-two.html">
+            <img src="images/bbctwo.jpg"></a>
+                <a href="itv1.html">
+            <img src="images/itv1.jpg"></a>
+                <a href="channel-4.html">
+            <img src="images/channel4.jpg"></a>
+            </div>
+            <div class="column">
+                <a href="channel-5.html">
+            <img src="images/channel5.jpg"></a>
+                <a href="bbc-three.html">
+            <img src="images/bbcthree.jpg"></a>
+                <a href="bbc-four.html">
+            <img src="images/bbcfour.jpg"></a>
+                <a href="itv2.html">
+            <img src="images/itv2.jpg"></a>
+            </div>
+            <div class="column">
+              <img src="images/itvbe.jpg">
+              <img src="images/cbbc.jpg">
+              <img src="images/cbeebies.jpg">
+              <img src="images/bbcscotland.jpg">
+            </div>
+            <div class="column">
+              <img src="images/bbcnews.jpg">
+              <img src="images/film4.jpg">
+              <img src="images/bbcearth.jpg">
+              <img src="images/foodnetwork.jpg">
+            </div>
+          </div>
+
+        </div>
+    </div>
+</div>
+    </script>
+
+
+
+
+
+
+
+
+    </section>
+
+    <script>
+        const body = document.querySelector('body'),
+      sidebar = body.querySelector('nav'),
+      toggle = body.querySelector(".toggle"),
+      searchBtn = body.querySelector(".search-box"),
+      modeSwitch = body.querySelector(".toggle-switch"),
+      modeText = body.querySelector(".mode-text");
+
+
+toggle.addEventListener("click" , () =>{
+    sidebar.classList.toggle("close");
+})
+
+searchBtn.addEventListener("click" , () =>{
+    sidebar.classList.remove("close");
+})
+
+modeSwitch.addEventListener("click" , () =>{
+    body.classList.toggle("dark");
+    
+    if(body.classList.contains("dark")){
+        modeText.innerText = "Light mode";
+    }else{
+        modeText.innerText = "Dark mode";
+        
+    }
+});
+
+    </script>
+
+</body>
+</html>
