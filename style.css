@@ -412,6 +412,29 @@ body {
     padding: 9px;
     height: 273px;
   }
+ .channels .banner{
+    background-image: url("https://tv.ubmini.com/images/gradient.jpg");
+    height: 70px;
+    width: 100%;
+  }
+  .channels button{
+    position: relative;
+    cursor: pointer;
+    margin-left: 485px;
+    font-size: 20px;
+    font-weight: 400;
+    transform: translateY(-16px);
+    border-radius: 5px;
+    height: 33px;
+    width: 205px;
+    border: none;
+  }
+  .channels h2{
+    color: #fff;
+    transform: translateY(15px);
+    font-weight: 400;
+    margin-left: 140px;
+  }
 
 @media screen and (max-width: 620px) {
     .sidebar.close{
