@@ -102,7 +102,7 @@ body{
     align-items: center;
 }
 .sidebar header .logo-text{
-    transform: translateY(21px) translateX(-10px);
+    transform: translateY(18px) translateX(-10px);
     display: flex;
     flex-direction: column;
 }
@@ -386,7 +386,7 @@ body {
     min-height: 100%;
   }
   .home .content{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     color: #f1f1f1;
     width: 100%;
@@ -413,8 +413,8 @@ body {
     padding: 9px;
     height: 273px;
   }
-  .channels .banner{
-    background-image: url("images/gradient.jpg");
+ .channels .banner{
+    background-image: url("https://tv.ubmini.com/images/gradient.jpg");
     height: 70px;
     width: 100%;
   }
@@ -437,7 +437,7 @@ body {
     margin-left: 140px;
   }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
     .sidebar.close{
         display: none;
     }
@@ -449,9 +449,9 @@ body {
         text-align: center;
     }
     .sidebar.close ~ .home{
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+        left: 0px;
+        height: 100%;
+        width: 100%;
     }
     .home{
         display: none;
