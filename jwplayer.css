@@ -1,26 +1,20 @@
-.vjs-big-play-button {
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 102, 0, 0.7);
+body {
+    background-color: rgb(245, 243, 243);
 }
-
-        body {
-    background-color: black;
+.video{
+    outline: none;
+    clip-path: inset(0px);
 }
-#my-video {
-    position: absolute;
+#myElement {
     width: 100%;
     height: 100%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    outline: none;
     margin: auto;
+    clip-path: inset(0px);
     max-height: 100%;
     max-width: 100%;
 }
-    #embed {
+#embed {
     position: absolute;
     width: 100%;
     height: 100%;
