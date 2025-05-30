@@ -9,7 +9,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../search.js"></script>
     <link rel="stylesheet" href="../style.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -20,13 +19,10 @@
 </head>
 <body>
 
-    <div id="topbar">
-    </div>
-    <script>
-        $(function(){
-          $("#topbar").load("../nav/topbar.html");
-        });
-    </script>
+<nav class="topbar">
+    <img onclick="document.location='..'" id="#toplogo" src="../images/ubtvlogo.png">
+    <button class="allchannelhome" onclick="document.location='..'"><i class='bx bx-tv'></i> All Channels</button></div>
+</nav>
     <section class="homepage">
         <div class="carousels">
         <br>
@@ -81,19 +77,6 @@
             <button class="nav-btn next"><i class='bx bx-right-arrow-alt'></i></button>
         </div>
             <div class="hometext">
-            <h1 class="category">Kids' Channels</h1>
-        </div>
-        <div class="slider-container">
-            <button class="nav-btn prev hidden"><i class='bx bx-left-arrow-alt'></i></button>
-            <div class="slider">
-                <div onclick="document.location='../channels/pop'" class="slide"><img src="images/pop.jpg"></div>
-                <div onclick="document.location='../channels/cbbc'" class="slide"><img src="images/cbbc.jpg"></div>
-                <div onclick="document.location='../channels/cbeebies'" class="slide"><img src="images/cbeebies.jpg"></div>
-                <div onclick="document.location='../channels/tiny-pop'" class="slide"><img src="images/tinypop.jpg"></div>
-            </div>
-            <button class="nav-btn next"><i class='bx bx-right-arrow-alt'></i></button>
-        </div>
-            <div class="hometext">
             <h1 class="category">Music Channels</h1>
         </div>
         <div class="slider-container">
@@ -125,6 +108,19 @@
             </div>
             <button class="nav-btn next"><i class='bx bx-right-arrow-alt'></i></button>
         </div>
+            <div class="hometext">
+            <h1 class="category">Kids' Channels</h1>
+        </div>
+        <div class="slider-container">
+            <button class="nav-btn prev hidden"><i class='bx bx-left-arrow-alt'></i></button>
+            <div class="slider">
+                <div onclick="document.location='../channels/pop'" class="slide"><img src="images/pop.jpg"></div>
+                <div onclick="document.location='../channels/cbbc'" class="slide"><img src="images/cbbc.jpg"></div>
+                <div onclick="document.location='../channels/cbeebies'" class="slide"><img src="images/cbeebies.jpg"></div>
+                <div onclick="document.location='../channels/tiny-pop'" class="slide"><img src="images/tinypop.jpg"></div>
+            </div>
+            <button class="nav-btn next"><i class='bx bx-right-arrow-alt'></i></button>
+        </div>
         <script src="carousel.js"></script>
         </div>
         </div>
@@ -142,13 +138,16 @@
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
         </div>
-        <div id="footer">
-        </div>
-        <script>
-            $(function(){
-              $("#footer").load("../nav/footer.html");
-            });
-            </script>
+            <div class="footer">
+                <div class="leftelems">
+                    <img src="../images/ubtvlogo.png">
+                    <h1>Live TV, all in one place</h1>
+                    <h3>©2025 ubgames</h3>
+                </div>
+                <div class="rightelems">
+                    <a href="https://ubmini.com/privacy-policy"><button>Privacy Policy</button></a>
+                </div>
+            </div>
                       <section class="mobiledisplay">
 
                         <div class="mobiletitletext">
