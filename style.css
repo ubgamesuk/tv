@@ -1273,6 +1273,9 @@ body{
     height: 50px;
     position: absolute;
 }
+.sidebarselector{
+    display: none;
+}
 .allchannel{
     height: 30px;
     border: none;
@@ -1307,16 +1310,19 @@ body{
     transition: 0.5s ease;
     cursor: pointer;
 }
+.channelplayer{
+    border: none;
+    outline: none;
+    position: fixed;
+    height: 100%;
+    transform: translateX(-15px);
+    width: 100%;
+    background-color: #101010c8;
+}
 .creatorbadge{
     height: 120px;
     position: absolute;
     margin-bottom: 130px;
     bottom: 0;
 }
-}
-@media screen and (min-width: 1440px) {
-    .game-wrapper .game{
-        height: 600px;
-        width: 1000px;
-    }
 }
