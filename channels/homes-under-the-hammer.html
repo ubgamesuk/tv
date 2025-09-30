@@ -24,27 +24,31 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/jwplayer/5.10/jwplayer.js"></script>
     
-    <title>Homes Under The Hammer</title>
+    <title>Homes Under the Hammer</title>
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
 </head>
 <body>
-<nav class="topbar">
-    <img onclick="document.location='..'" id="#toplogo" src="../images/ubtvlogo.png">
-    <button class="allchannel" onclick="document.location='..'"><i class='bx bx-tv'></i> All Channels</button>
-    <div class="channelinfo">
-    <div class="channeltext">
-        <h1>Now Playing</h1>
-        <h2>Homes Under The Hammer</h2>
-    </div>
-    <div class="channelcontrols">
-        <button onclick="document.location='../channels/hells-kitchen'"><i class='bx bx-chevron-left'></i><span class="buttontext">Previous</span></button>
-        <button onclick="document.location='../channels/mtv-hits'"><i class='bx bx-chevron-right'></i><span class="buttontext">Next</span></button>
-    </div>
-    </div>
-
 </nav>
-    <section class="channel">
-        <iframe class="channelplayer" src="../channel/homesunderhammer.html" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" allowfullscreen></iframe>
+    <section class="playbackarea">
+        <div class="sidebarselector">
+            <img class="sidebarlogo" src="../images/ubtvlogo.png">
+            <div class="channelrownp">
+                <h2 class="nowplayingtitle">Now Playing</h2>
+                <h1 class="nowplayingchannel"><b>033 |</b> Homes Under the Hammer</h1>
+            </div>
+            <hr style="margin: 20px;">
+                <div id="channelbarlist">
+                </div>
+                <script>
+                    $(function(){
+                    $("#channelbarlist").load("../channelbar.html");
+                    });
+                </script>
+            </div>
+        </div>
+        <div class="channel">
+            <iframe class="channelplayer" src="../channel/homesunderhammer.html" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" allowfullscreen></iframe>
+        </div>
     </section>
 
 </body>

@@ -28,23 +28,27 @@
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
 </head>
 <body>
-<nav class="topbar">
-    <img onclick="document.location='..'" id="#toplogo" src="../images/ubtvlogo.png">
-    <button class="allchannel" onclick="document.location='..'"><i class='bx bx-tv'></i> All Channels</button>
-    <div class="channelinfo">
-    <div class="channeltext">
-        <h1>Now Playing</h1>
-        <h2>QVC Extra</h2>
-    </div>
-    <div class="channelcontrols">
-        <button onclick="document.location='../channels/qvc-beauty'"><i class='bx bx-chevron-left'></i><span class="buttontext">Previous</span></button>
-        <button onclick="document.location='../channels/tjc'"><i class='bx bx-chevron-right'></i><span class="buttontext">Next</span></button>
-    </div>
-    </div>
-
 </nav>
-    <section class="channel">
-        <iframe class="channelplayer" src="../channel/qvcextra.html" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" allowfullscreen></iframe>
+    <section class="playbackarea">
+        <div class="sidebarselector">
+            <img class="sidebarlogo" src="../images/ubtvlogo.png">
+            <div class="channelrownp">
+                <h2 class="nowplayingtitle">Now Playing</h2>
+                <h1 class="nowplayingchannel"><b>013 |</b> QVC Extra</h1>
+            </div>
+            <hr style="margin: 20px;">
+                <div id="channelbarlist">
+                </div>
+                <script>
+                    $(function(){
+                    $("#channelbarlist").load("../channelbar.html");
+                    });
+                </script>
+            </div>
+        </div>
+        <div class="channel">
+            <iframe class="channelplayer" src="../channel/qvcextra.html" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" allowfullscreen></iframe>
+        </div>
     </section>
 
 </body>

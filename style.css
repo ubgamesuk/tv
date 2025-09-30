@@ -245,19 +245,81 @@ body{
     font-weight: 500;
     color: #ffffffd4;
 }
-.channel{
-    position: relative;
-    margin-top: 69px;
-    top: 0;
+#channelbarlist{
+    height: calc(100% - 180px);
 }
 .channelplayer{
     border: none;
     outline: none;
     position: fixed;
-    height: calc(100vh - 79px);
-    width: calc(100% - 30px);
-    border-radius: 9px;
+    height: 100vh;
+    transform: translateX(-15px);
+    width: calc(100% - 250px);
     background-color: #101010c8;
+}
+.playbackarea{
+    display: flex;
+}
+.playbackarea .sidebarselector{
+    background-color: #131313;
+    transform: translateX(-15px);
+    width: 250px;
+    height: 100vh;
+    color: #fff;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.playbackarea .sidebarselector .sidechannelselector{
+    height: 100%;
+    overflow: auto;
+}
+.playbackarea .sidebarselector .sidebarlogo{
+    height: 50px;
+    cursor: pointer;
+}
+.sidebarselector .channelrownp{
+    background-color: #fff;
+    color: #000000;
+    border-radius: 12px;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: default;
+}
+.sidebarselector .channelrow{
+    background-color: #090909;
+    color: #d2d2d2;
+    border-radius: 12px;
+    margin-top: 8px;
+    outline: 1px solid #393939;
+    padding: 10px;
+    cursor: pointer;
+    transition: ease 0.5s;
+    transform: scale(0.98);
+}
+.sidebarselector .channelrow:hover{
+    background-color: #232323;
+    transform: scale(0.9);
+}
+.sidebarselector .channelrownp .nowplayingtitle{
+    font-size: 20px;
+}
+.sidebarselector .channelrownp .nowplayingchannel{
+    font-weight: 500;
+    font-size: 20px;
+}
+.sidebarselector .channelrownp .nowplayingchannel b{
+    font-weight: 400;
+    font-size: 18px;
+}
+.sidebarselector .channelrow .channeldisplay{
+    font-weight: 500;
+    font-size: 18px;
+}
+.sidebarselector .channelrow .channeldisplay b{
+    font-weight: 400;
+    font-size: 17px;
 }
 .home{
     position: fixed;
