@@ -48,6 +48,23 @@ body{
     vertical-align: middle;
     cursor: pointer;
 }
+.adbox{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 210px;
+    outline: 1px solid #414141;
+    background-color: #1e1e1e;
+}
+.adbox .addisc{
+    color: #a8a8a8;
+    letter-spacing: 1.1px;
+    font-size: 13px;
+}
+.adbox .adsbygoogle{
+    width: 210px;
+    height: 150px;
+    border-radius: 10px;
+}
 .channelinfo{
     color: #b3b3b3;
     font-weight: 400;
@@ -246,7 +263,7 @@ body{
     color: #ffffffd4;
 }
 #channelbarlist{
-    height: calc(100% - 180px);
+    height: calc(100% - 340px);
 }
 .channelplayer{
     border: none;
@@ -796,11 +813,6 @@ body{
         transform: translateY(6px);
         letter-spacing: 1.01px;
         font-size: 11px;
-    }
-    .ad-box .adsbygoogle{
-        transform: translateX(-83px) translateY(-8px);
-        height: 182px;
-        width: 257px;
     }
     .game-controls .age-rating{
         color: #fff;
