@@ -643,7 +643,7 @@ body{
   
   .slide img {
     width: 250px;
-    height: 150px;
+    height: 140px;
     outline: 1px solid #6b6a6a;
     object-fit: cover;
     border-radius: 20px;
