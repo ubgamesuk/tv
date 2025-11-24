@@ -54,6 +54,7 @@ body{
     width: 210px;
     outline: 1px solid #414141;
     background-color: #1e1e1e;
+    text-align: center;
 }
 .adbox .addisc{
     color: #a8a8a8;
@@ -263,7 +264,8 @@ body{
     color: #ffffffd4;
 }
 #channelbarlist{
-    height: calc(100% - 340px);
+    margin-top: 10px;
+    height: calc(100% - 320px);
 }
 .channelplayer{
     border: none;
@@ -286,14 +288,13 @@ body{
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     padding: 20px;
-    text-align: center;
 }
 .playbackarea .sidebarselector .sidechannelselector{
     height: 100%;
     overflow: auto;
 }
 .playbackarea .sidebarselector .sidebarlogo{
-    height: 50px;
+    height: 45px;
     cursor: pointer;
 }
 .sidebarselector .channelrownp{
