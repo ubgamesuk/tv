@@ -1,0 +1,51 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://tv.ubgames.app/images/bbcone.jpg",BBC One HD
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east_midlands/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://tv.ubgames.app/images/bbctwo.jpg",BBC Two HD
+https://vs-cmaf-push-uk.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_two_hd/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://tv.ubgames.app/images/bbcthree.jpg",BBC Three HD
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_three_hd/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://tv.ubgames.app/images/channel4.jpg",Channel 4 HD
+https://viamotionhsi.netplus.ch/live/eds/channel4/browser-HLS8/channel4.m3u8
+
+#EXTINF:-1 tvg-logo="https://tv.ubgames.app/images/channel5.jpg",Channel 5 HD
+https://viamotionhsi.netplus.ch/live/eds/channel5/browser-HLS8/channel5.m3u8
+
+#EXTINF:-1 tvg-logo="https://tv.ubgames.app/images/itv2.jpg",ITV2 HD
+https://viamotionhsi.netplus.ch/live/eds/itv2/browser-dash/itv2.mpd
+
+#EXTINF:-1 tvg-logo="https://tv.ubgames.app/images/itv3.jpg",ITV3 HD
+https://viamotionhsi.netplus.ch/live/eds/itv3/browser-HLS8/itv3.m3u8
+
+#EXTINF:-1 tvg-logo="https://tv.ubgames.app/images/itv4.jpg",ITV4 HD
+https://viamotionhsi.netplus.ch/live/eds/itv4/browser-HLS8/itv4.m3u8
+
+#EXTINF:-1 tvg-logo="https://tv.ubgames.app/images/more4.jpg",More4
+https://viamotionhsi.netplus.ch/live/eds/more4/browser-dash/more4.mpd
+
+#EXTINF:-1 tvg-logo="https://tv.ubgames.app/images/bbcscotland.jpg",BBC Scotland HD
+https://vs-cmaf-pushb-uk.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_scotland_hd/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://tv.ubgames.app/images/bbcnews.jpg",BBC News HD
+https://vs-cmaf-push-uk.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://tv.ubgames.app/images/bbcredbutton.jpg",BBC Red Button 1
+https://vs-cmaf-pushb-uk.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:red_button_one/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://tv.ubgames.app/images/cbbc.jpg",CBBC HD
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://tv.ubgames.app/images/cbeebies.jpg",CBeebies HD
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://tv.ubgames.app/images/qvc.jpg",QVC
+https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://tv.ubgames.app/images/qvcbeauty.jpg",QVC Beauty
+https://qvcuk-live.akamaized.net/hls/live/2097112/qby/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://tv.ubgames.app/images/greatmovies.jpg",Great! Movies
+https://amg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmovies-lggb/playlist.m3u8
